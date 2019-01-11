@@ -1,1 +1,1 @@
-include ':app', ':middle', ':storage', ':senior', ':device', ':custom', ':huli', ':network', ':file', ':aaa'
+include ':app', ':middle', ':storage', ':senior', ':device', ':custom', ':huli', ':network', ':file', ':aaa', ':finger', ':thread'
