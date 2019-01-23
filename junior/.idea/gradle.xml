@@ -10,16 +10,20 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/aaa" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bbb" />
             <option value="$PROJECT_DIR$/custom" />
             <option value="$PROJECT_DIR$/device" />
+            <option value="$PROJECT_DIR$/download" />
             <option value="$PROJECT_DIR$/file" />
             <option value="$PROJECT_DIR$/finger" />
+            <option value="$PROJECT_DIR$/group" />
             <option value="$PROJECT_DIR$/huli" />
             <option value="$PROJECT_DIR$/middle" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/senior" />
             <option value="$PROJECT_DIR$/storage" />
             <option value="$PROJECT_DIR$/thread" />
+            <option value="$PROJECT_DIR$/uhf" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
