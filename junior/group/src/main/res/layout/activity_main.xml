@@ -85,25 +85,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:orientation="horizontal">
                 <Button
                     android:id="@+id/btn_toolbar_custom"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="定制工具栏"/>
                 <Button
                     android:id="@+id/btn_tab_layout"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="工具栏集成标签"/>
                 <Button
                     android:id="@+id/btn_tab_custom"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="工具栏定制标签"/>
             </LinearLayout>
 

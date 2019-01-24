@@ -66,11 +66,19 @@ public class ToolbarCustomActivity extends AppCompatActivity implements View.OnC
 
     @Override
     public void onClick(View v) {
+        if(v.getId() == R.id.tv_day){
+            Calendar calendar = Calendar.getInstance();
+            DatePickerDialog dialog = new DatePickerDialog(this,this,calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH),calendar.get(Calendar.DAY_OF_MONTH));
+            dialog.show();
 
+        }
     }
+
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-
+        String desc = String.format("%d年%d月%d日",year,month+1,dayOfMonth);
+        tv_day.setText(desc);
+        tv_desc.setText("您选择的日期是"+desc);
     }
 }
