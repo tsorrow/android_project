@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_time_picker) {
             Intent intent = new Intent(this, TimePickerActivity.class);
             startActivity(intent);
-        } /*else if (v.getId() == R.id.btn_base_adapter) {
+        } else if (v.getId() == R.id.btn_base_adapter) {
             Intent intent = new Intent(this, BaseAdapterActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_list_view) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_launch_improve) {
             Intent intent = new Intent(this, LaunchImproveActivity.class);
             startActivity(intent);
-        } else if (v.getId() == R.id.btn_broad_temp) {
+        }/* else if (v.getId() == R.id.btn_broad_temp) {
             Intent intent = new Intent(this, BroadTempActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_broad_system) {

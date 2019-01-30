@@ -17,7 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".DatePickerActivity" />
-        <activity android:name=".TimePickerActivity"></activity>
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".BaseAdapterActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ShoppingCartActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".ShoppingChannelActivity" />
+        <activity android:name=".PagerTitleStripActivity" />
+        <activity android:name=".PagerTabStripActivity" />
+        <activity android:name=".LaunchSimpleActivity" />
+        <activity android:name=".FragmentStaticActivity" />
+        <activity android:name=".FragmentDynamicActivity" />
+        <activity android:name=".LaunchImproveActivity"></activity>
     </application>
 
 </manifest>

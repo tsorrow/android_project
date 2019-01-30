@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentStaticActivity">
+
+    <fragment
+        android:id="@+id/fragment_static"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.tsorrow.junior.senior.fragment.StaticFragment"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="这里是每个页面的具体内容"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+</android.support.constraint.ConstraintLayout>
